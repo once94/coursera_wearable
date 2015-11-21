@@ -6,7 +6,7 @@ The original data comes from Human Activity Recognition Using Smartphones Data S
 
 ## Data Set Information
 
-See [Source](#source) for more info.
+See [Source] for more info.
 
 ### Data Set 1 - the basic data set
 
