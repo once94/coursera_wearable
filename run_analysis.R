@@ -48,7 +48,7 @@ levels(dataSet$Activity) <- activity_labels$Activity.Name
 tidyData <- summarise_each(group_by(dataSet, Activity, Subject), funs(mean), vars = -2)
 
 ## cleaning afterwards, comment the line below to prevent cleaning
-rm(activity_labels, bigDataSet, features, means_std_columns, subjects_test, subjects_train, test1, train1, x_test, x_train, y_test, y_train)
+#rm(activity_labels, bigDataSet, features, means_std_columns, subjects_test, subjects_train, test1, train1, x_test, x_train, y_test, y_train)
 
 ## writting data to file
 # write.table(tidyData, 'tidyData.txt', row.names = FALSE)
