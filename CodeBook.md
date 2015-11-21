@@ -12,7 +12,7 @@ See Source for more info.
 
 The first dataset, called `dataSet`, contains merged observations from the test and the train dataset based in the original data set.
 
-For *Data Set 1*, only only the measurements on the mean and standard deviation were extracted.
+For *Data Set 1*, only the measurements on the mean and standard deviation were extracted.
 
 ### Data Set 2 - the summed data set 
 The second dataset, called `tidyData`, contains the averaged out data for each subject and each activity. It is derived from *Data Set 1*.
@@ -42,7 +42,7 @@ Data set has 68 variables:
 * Activity - A performed activity label
 * A 66-feature vector with time and frequency domain variables average out for each subject and each activity
 
-### Features Selection
+#### Features Selection
 
 Source: `features_info.txt` in original data set (see Source above). Updated for actual *Data Set 1* and *Data Set 2*.
 
