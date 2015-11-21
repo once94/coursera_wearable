@@ -9,18 +9,18 @@
 ## How to run the analysis?
 
 1. Place a content of [Human Activity Recognition Using Smartphones Data Set](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) to working directory or make the data folder working directory
-2. Source the `run_analysis.R` file to R environment with command
+2. Load the `run_analysis.R` file to R environment with command
 ```r
 source('path/to/file/run_analysis.R')
 ```
 
 ## What the analysis do?
 
-`run_analysis.R` is simple straigh-forward script running commands one-by-one, once loaded. The script is commented and self-explenatory most of the time, so it should not be hard to follow ideas and read the code.
+`run_analysis.R` is simple straigh-forward script running commands one-by-one, once loaded. The script is commented and self-explenatory most of the time, so it should not be hard to follow ideas behind and read the code.
 
 ### Step-by-step script explanation
 
-In the script, steps below are separated by ## comments.
+In the script, steps below represent portions of code devided by ## comments.
 
 1. Loading dependencies
 2. Loading general data - activity labels, feature names
