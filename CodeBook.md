@@ -2,18 +2,20 @@
 
 ## Source
 
-The original data comes from Human Activity Recognition Using Smartphones Data Set at Machine Learning Repository available at http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones .
+The original data comes from [Human Activity Recognition Using Smartphones Data Set](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) at [UC Irvine Machine Learning Repository](http://archive.ics.uci.edu/ml/index.html).
 
 ## Data Set Information
 
-See [Source] for more info.
+See Source for more info.
 
 ### Data Set 1 - the basic data set
 
-The first dataset, called `dataSet`, contains observations from the test and the train dataset based in the original data set. 
+The first dataset, called `dataSet`, contains merged observations from the test and the train dataset based in the original data set.
+
+For *Data Set 1*, only only the measurements on the mean and standard deviation were extracted.
 
 ### Data Set 2 - the summed data set 
-The second dataset, called `tidyData`, contains the averaged out data for each subject and each activity.
+The second dataset, called `tidyData`, contains the averaged out data for each subject and each activity. It is derived from *Data Set 1*.
 
 ## Attribute Information
 
@@ -23,7 +25,26 @@ The second dataset, called `tidyData`, contains the averaged out data for each s
 - Its activity label. 
 - An identifier of the subject who carried out the experiment.
 
+### Variables
+
+#### Data Set 1 Variables
+
+Data set has 69 variables:
+* Subject - An identifier of the subject who carried out the experiment
+* Learning.Set - An identifier of partitioned data set, that were randomly allocated to two separate data sets (training and test data set)
+* Activity - A performed activity label
+* A 66-feature vector with time and frequency domain variables that is specified in Features Selection below
+
+#### Data Set 2 Variables
+
+Data set has 68 variables:
+* Subject - An identifier of the subject who carried out the experiment
+* Activity - A performed activity label
+* A 66-feature vector with time and frequency domain variables that is specified in Features Selection below
+
 ### Features Selection
+
+Source: `features_info.txt` in original data set (see Source above). Updated for actual *Data Set 1* and *Data Set 2*.
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
