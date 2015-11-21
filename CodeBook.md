@@ -40,7 +40,7 @@ Data set has 69 variables:
 Data set has 68 variables:
 * Subject - An identifier of the subject who carried out the experiment
 * Activity - A performed activity label
-* A 66-feature vector with time and frequency domain variables that is specified in Features Selection below
+* A 66-feature vector with time and frequency domain variables average out for each subject and each activity
 
 ### Features Selection
 
