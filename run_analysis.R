@@ -52,3 +52,4 @@ tidyData <- summarise_each(group_by(dataSet, Activity, Subject), funs(mean), var
 
 ## writting data to file
 # write.table(tidyData, 'tidyData.txt', row.names = FALSE)
+# write.table(dataSet, 'dataSet.txt', row.names = FALSE)

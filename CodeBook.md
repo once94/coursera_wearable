@@ -2,13 +2,17 @@
 
 ## Source
 
-## Dataset Information
+The original data comes from Human Activity Recognition Using Smartphones Data Set at Machine Learning Repository available at http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones .
 
-### Dataset 1 - basic dataset
+## Data Set Information
 
-The first dataset, called `dataSet`, contains observations from the test and the train dataset based in the original source. 
+See [Source](#source) for more info.
 
-### Dataset 2 - summed dataset 
+### Data Set 1 - the basic data set
+
+The first dataset, called `dataSet`, contains observations from the test and the train dataset based in the original data set. 
+
+### Data Set 2 - the summed data set 
 The second dataset, called `tidyData`, contains the averaged out data for each subject and each activity.
 
 ## Attribute Information
